@@ -1,0 +1,38 @@
+.root{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  height: 100%;
+
+}
+.app-name{
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+
+}
+.has-gradient-text{
+  background: -webkit-linear-gradient(#13f7f4,#2af598);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar{
+  justify-content: center;
+}
+.total-budget-section{
+  background: rgb(22,28,41);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+.add-item-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.add-item-container{
+  width: 680px;
+}

@@ -1,0 +1,23 @@
+<div class="root">
+  <div class="navbar has-background-dark">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        <h1 class="app-name has-gradient-text">
+          Budget Calculator
+        </h1>
+      </div>
+    </div>
+  </div>
+  <div class="total-budget-section">
+      <div class="total-budget">
+        1241
+      </div>
+  </div>
+  <div class="add-item-section">
+    <div class="add-item-container">
+      <app-add-item-form style="padding: 15px" (formSubmit)="addItem($event)"></app-add-item-form>
+    </div>
+  </div>
+  <hr>
+  <app-budget-item-list [budgetItems]="budgetItems" (delete)="deleteItem($event)"></app-budget-item-list>
+</div>
